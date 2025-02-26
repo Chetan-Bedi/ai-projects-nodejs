@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 const main = async () => {
-    const prompt = "write a haiku about ai"
+    const prompt = "write a haiku about ai?"
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
